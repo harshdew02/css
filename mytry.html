@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my flex try</title>
+
+    <style>
+        .container{
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: row;
+            line-height: 500px;
+            width: 100%;
+            background-color: blue;
+            /* align-content: ; */
+            justify-content: center;
+            align-items: flex-end;
+        }
+        
+        .container>div{
+            background-color: green;
+            width: 100px;
+           line-height: 40px;
+            text-align: center;
+            margin: 15px;
+            padding: 12px;
+           font-size: 25px;
+           clip-path: circle(50%);
+            
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div><h1>1</h1></div>
+        <div><h1>2</h1></div>
+        <div><h1>3</h1></div>
+        <div><h1>3</h1></div>
+        <!-- <div><h1>3</h1></div>
+        <div><h1>3</h1></div> -->
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,116 @@
+@charset "utf-8";
+	.NormalCharacterStyle7
+{
+	font-family : Asap Bold;
+	font-weight : bold;
+	font-size : 115px;
+	letter-spacing : 10.35px;
+	text-transform : uppercase;
+	color : #F2D5BB;
+	color : rgb(242, 213, 187);
+}
+.NormalCharacterStyle1
+{
+	font-family : Asap Bold;
+	font-weight : bold;
+	font-size : 11px;
+	line-height : 41.13px;
+	letter-spacing : 0.99px;
+	text-transform : uppercase;
+	color : #131C21;
+	color : rgb(19, 28, 33);
+}
+.NormalCharacterStyle3
+{
+	font-family : Asap Bold;
+	font-weight : bold;
+	font-size : 11px;
+	line-height : 41.13px;
+	letter-spacing : 0.99px;
+	text-transform : uppercase;
+	color : #131C21;
+	color : rgb(19, 28, 33);
+}
+.NormalCharacterStyle5
+{
+	font-family : Asap Bold;
+	font-weight : bold;
+	font-size : 11px;
+	line-height : 41.13px;
+	letter-spacing : 0.99px;
+	text-transform : uppercase;
+	color : #131C21;
+	color : rgb(19, 28, 33);
+}
+.NormalCharacterStyle4
+{
+	font-family : Asap Bold;
+	font-weight : bold;
+	font-size : 11px;
+	line-height : 41.13px;
+	letter-spacing : 0.99px;
+	text-transform : uppercase;
+	color : #131C21;
+	color : rgb(19, 28, 33);
+}
+.NormalCharacterStyle2
+{
+	font-family : Asap Bold;
+	font-weight : bold;
+	font-size : 11px;
+	line-height : 41.13px;
+	letter-spacing : 0.99px;
+	text-transform : uppercase;
+	color : #131C21;
+	color : rgb(19, 28, 33);
+}
+.NormalCharacterStyle6
+{
+	font-family : Asap Regular;
+	font-size : 130px;
+	letter-spacing : 11.7px;
+	text-transform : uppercase;
+	color : #F2CB05;
+	color : rgb(242, 203, 5);
+}
+.NormalCharacterStyle
+{
+	font-family : Asap Bold;
+	font-weight : bold;
+	font-size : 11px;
+	line-height : 41.13px;
+	letter-spacing : 0.99px;
+	text-transform : uppercase;
+	color : #131C21;
+	color : rgb(19, 28, 33);
+}
+.st0
+{
+	background : #131C21;
+	background : rgba(19, 28, 33, 1);
+}
+.st1
+{
+	background : #F2CB05;
+	background : rgba(242, 203, 5, 1);
+}
+.st2
+{
+	background : #F23005;
+	background : rgba(242, 48, 5, 1);
+}
+.st3
+{
+	background : #303EBC;
+	background : rgba(48, 62, 188, 1);
+}
+.image
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+}
+.st4
+{
+	background : #152730;
+	background : rgba(21, 39, 48, 1);
+}

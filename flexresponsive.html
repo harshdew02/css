@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>flex responsive</title>
+
+        <style>
+        .flex-container
+{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+@media (max-width: 800px){
+    .flex-container{
+        flex-direction: column;
+        text-align: left;
+    }
+}
+
+.flex-item-left{
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right{
+    background-color: dodgerblue;
+    margin: 10px;
+    padding: 10px;
+    flex: 50%;
+}
+
+    </style>
+    </head>
+    <body>
+
+        <h1>responsive flex box</h1>
+
+        <p>The "flex-direction The "flex-direction: row;" stacks the flex items
+            horizontally (from left to right)</p>
+        <p>The "flex-direction: column;" stacks the flex items vertically (from
+            top to bottom).</p>
+
+        <b></b>
+
+        <div class="flex-container">
+            <div class="flex-item-left">1</div>
+            <div class="flex-item-right">2</div>
+        </div>
+
+
+
+    </body>
+</html>
